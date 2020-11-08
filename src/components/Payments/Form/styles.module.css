@@ -1,0 +1,31 @@
+.root {
+  padding: 12px 24px;
+}
+
+.switch {
+  margin: 12px 0;
+}
+
+.salaryInfo {
+  margin: 24px 0;
+  max-width: 400px;
+}
+
+.salaryField {
+  display: flex;
+  align-items: center;
+}
+
+.salaryField input {
+  border-radius: 15px;
+  padding: 3px 12px;
+  margin-right: 6px;
+}
+
+.salaryField input:focus {
+  outline: none;
+}
+
+.period {
+  font-weight: 800;
+}

@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.formGroup {
+  margin: 0;
+}
+
+.buttonIcon {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.buttonIcon:focus {
+  outline: none;
+}
+
+.icon {
+  color: #bebebe;
+}
+
+.popover {
+  background: #6b78ce;
+}
+
+.description {
+  color: white;
+}

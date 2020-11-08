@@ -1,0 +1,37 @@
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  border: 0;
+  background: transparent;
+  opacity: 0.6;
+  font-weight: 600;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.active {
+  opacity: 1;
+}
+
+.switch {
+  margin: 0 12px;
+}
+
+:global(.custom-switch .custom-control-label::before) {
+  background-color: #adb5bd;
+  border-color: #adb5bd;
+}
+
+:global(.custom-switch .custom-control-label::after) {
+  background-color: #fff;
+}
+
+:global(.custom-control-input:checked ~ .custom-control-label::before) {
+  background-color: #f5a242;
+  border-color: #f5a242;
+}

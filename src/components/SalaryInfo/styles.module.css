@@ -1,0 +1,9 @@
+.root {
+  list-style-type: none;
+  padding: 12px 24px;
+  background: #faefbc;
+}
+
+.salaryAmount {
+  font-weight: 800;
+}
